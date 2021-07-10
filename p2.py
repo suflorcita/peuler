@@ -5,6 +5,7 @@
 # find the sum of the even-valued terms.
 
 def fib(n):
+''' Retorna '''
     f = [0 for i in range(n+1)]
     #inicializa el array con 0
 
