@@ -1,5 +1,5 @@
-#Enunciado : Work out the first ten digits of the sum of the following one-hundred 50-digit numbers.
-# Paso los números que dice el enunciado a un archivo txt
+# Enunciado : Work out the first ten digits of the sum of the following one-hundred 50-digit numbers.
+# Escribo los números que dice el enunciado a un archivo txt
 
 txt = open('peuler/num.txt','r')
 
