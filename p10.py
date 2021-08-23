@@ -1,3 +1,4 @@
+# Find the sum of all the primes below two million.
 import math
 def prime(n):
     '''Test de primalidad de un número'''
@@ -18,6 +19,5 @@ def sum_prime(n):
 
 # retorna la suma hasta cierto n
 print(sum_prime(2*10**6))
-
 
 # tarda, es ineficiente, habría que optimizarlo 
