@@ -4,12 +4,10 @@
 
 
 def product(number): 
-	'''Calcula el producto de n numeros dado un string que represente un numero'''
+	'''Calcula el producto de los n digitos dado un string que represente un numero'''
 	product = 1
 	for digit in number: 
 		product *= int(digit)
-
-
 	return product
 
 
@@ -25,11 +23,9 @@ if __name__ == "__main__":
 
 
 	for i in range(1000 - 12): 
-		# voy interando en todas las cuatros pares de numeros posibles
+		# voy interando en todos las treces digitos adyacentes posibles
 		num = number[i: i+13]			
-		
-		
-			
+					
 		if (product(num)> max_prod): 			
 			max_prod = product(num)
 			max_num = num 
