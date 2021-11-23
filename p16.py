@@ -3,15 +3,10 @@
 
 def sum_digits(num): 
     ''' Retorna la suma de los digitos de un número'''
-    sum = 0 
-
     num = str(num)
     list_digits = [int(n) for n in num]
-    
-    for n in list_digits: 
-        sum += n
 
-    return sum 
+    return sum(list_digits)
 
 if __name__ == "__main__": 
     print(sum_digits(2**1000))
